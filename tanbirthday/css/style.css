@@ -108,9 +108,14 @@ background:#FFF;
 	bottom:0;
 	color:#FFF;
 }
-.ttqContent
+.ttqcont
 {
-font-size:10px;
+font-size:20px;
 color:#fff;
-display:none;
+}
+.ttqname
+{
+	float:right;
+font-size:18px;
+color:#fff;
 }

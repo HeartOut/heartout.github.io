@@ -1,0 +1,108 @@
+/* CSS Document */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Microsoft YaHei,微软雅黑;
+	background:#7e0000;
+}
+.all
+{
+		
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+	height:620px;
+
+}
+.container
+{
+	position:absolute;
+	left:50px;
+	top:200px;
+	float:left;
+	margin-top:100px;
+    width:745px;
+    height:144px;
+    background:url(../images/timebg.png);
+	border-radius:20px;
+}
+
+#count>span{
+	margin-top:10px;
+	padding:30px;
+	color:#900;
+	font-weight:bold;
+	font-size:80px;
+	font-family:Microsoft YaHei,微软雅黑;
+	}
+
+.countClass
+{   padding: 15px 10px 10px 10px;
+	font-size:30px;
+	color:#FFF;
+	font-family:Microsoft YaHei,微软雅黑;
+	font:bold;
+	
+	
+}
+.tan
+{
+
+	float:left;
+	width:300px;
+	height:300px;
+	position:absolute;
+	right:50px;
+	top:50px;
+
+
+}
+.paper{
+width:500px;
+height:300px;
+display:none;
+background:#FFF;
+overflow:scroll;
+overflow-x:hidden;
+position:relative;
+}
+.content{
+padding:30px;
+overflow:scroll;
+overflow-x:hidden;
+word-break:break-all; 
+
+padding:20px;
+}
+
+.close
+{
+cursor:pointer;
+position:fixed;
+margin-left:-20px;
+background:#FFF;
+}
+.happy
+{
+	color:#FFF;
+	font-size:100px;
+	padding:200px 100px 100px 100px;
+}
+.footer
+{
+	
+	position:absolute;
+	left:500px;
+	bottom:0;
+	color:#FFF;
+}
+.ttqContent
+{
+font-size:10px;
+color:#fff;
+display:none;
+}

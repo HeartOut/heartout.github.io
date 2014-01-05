@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>ÓÚœÉúÈÕµ¹¼ÆÊ±</title>
-<link rel="tanBirthday" href="favicon.ico">   
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>äºæ¹‰ç”Ÿæ—¥å€’è®¡æ—¶</title>
 <link type="text/css" rel="stylesheet" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
-<script type="text/javascript" src="js/time.js"></script>
+<script type="text/javascript" src="js/jquery-1.5.1.min.js" ></script>
+<script type="text/javascript" src="js/time.js" ></script>
 <script type="text/javascript" src="js/data.js" ></script>
 
 </head>
@@ -14,7 +13,7 @@
 <div class="title"><img src="images/title.png" /></div>
    <div class="container">
     <div id="count" class="countClass">
-    	<span></span>Ìì<span></span>Ê±<span></span>·Ö<span></span>Ãë
+    	<span></span>å¤©<span></span>æ—¶<span></span>åˆ†<span></span>ç§’
     </div>
     <div style="margin-top:30px;margin-left:20px;width:600px;">
    <marquee direction=up height=25 onmouseout=this.start() onmouseover=this.stop() scrollAmount=1 scrollDelay=20>
@@ -32,11 +31,11 @@
 <div class="footer">
 <div id="tb" style="padding:10px;float:left;margin-right:30px;">
 <a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E4%BA%8E%E6%B9%89" target="_blank" style="border:0"><img src="images/tieba.png" style="border:0"  /></a>
-<span id="tbtag" style="display:none;position:absolute;top:-20px;left:-40px">È¥ÓÚœ°É·¢ÉúÈÕ×£¸£</span>
+<span id="tbtag" style="display:none;position:absolute;top:-20px;left:-40px">å»äºæ¹‰å§å‘ç”Ÿæ—¥ç¥ç¦</span>
 </div>
 <div id="wb" style="padding:10px;float:left;">
 <a href="http://weibo.com/u/1313454973" ><img src="images/weibo.png" style="border:0"/></a>
-<span id="wbtag" style="display:none;position:absolute;top:-20px;left:40px;width:200px;">È¥ÓÚœÎ¢²©·¢ÉúÈÕ×£¸£</span>
+<span id="wbtag" style="display:none;position:absolute;top:-20px;left:40px;width:200px;">å»äºæ¹‰å¾®åšå‘ç”Ÿæ—¥ç¥ç¦</span>
 
 </div>
 </div>
@@ -80,7 +79,7 @@ $(".paper").hide();
 $.each(jsonData, function (index, item) 
 {
 
-$("#content").append("<span class='ttqcont'>"+item.cont+"</span><span class='ttqname'>By£º"+item.name+"</span></br>");
+$("#content").append("<span class='ttqcont'>"+item.cont+"</span><span class='ttqname'>Byï¼š"+item.name+"</span></br>");
 
 
 });
